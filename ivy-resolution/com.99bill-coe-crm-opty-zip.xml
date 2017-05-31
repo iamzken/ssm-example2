@@ -1,0 +1,1388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.99bill"
+		module="coe-crm-opty"
+		revision="working@sh401030101504"
+		conf="zip"
+		confs="default, compile, zip, test"
+		date="20170531143357"/>
+	<dependencies>
+		<module organisation="org.mybatis.generator" name="mybatis-generator-core">
+			<revision name="1.3.5" status="release" pubdate="20170526182556" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="124">
+				<metadata-artifact status="no" details="" size="459" time="0" location="D:\Local_Repository\repository\ivy-cache\org.mybatis.generator\mybatis-generator-core\ivy-1.3.5.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.3.5" rev-constraint-default="1.3.5" rev-constraint-dynamic="1.3.5" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="mybatis-generator-core" type="jar" ext="jar" status="no" details="" size="555960" time="0" location="D:\Local_Repository\repository\ivy-cache\org.mybatis.generator\mybatis-generator-core\jars\mybatis-generator-core-1.3.5.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.mybatis.generator/mybatis-generator-core/jars/mybatis-generator-core-1.3.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-web">
+			<revision name="2.8.2" status="release" pubdate="20170525154249" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="122">
+				<metadata-artifact status="no" details="" size="436" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.logging.log4j\log4j-web\ivy-2.8.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.8.2" rev-constraint-default="2.8.2" rev-constraint-dynamic="2.8.2" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="log4j-web" type="jar" ext="jar" status="no" details="" size="32684" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.logging.log4j\log4j-web\jars\log4j-web-2.8.2.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache.logging.log4j/log4j-web/jars/log4j-web-2.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-jul">
+			<revision name="2.8.2" status="release" pubdate="20170525154207" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="121">
+				<metadata-artifact status="no" details="" size="436" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.logging.log4j\log4j-jul\ivy-2.8.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.8.2" rev-constraint-default="2.8.2" rev-constraint-dynamic="2.8.2" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="log4j-jul" type="jar" ext="jar" status="no" details="" size="23171" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.logging.log4j\log4j-jul\jars\log4j-jul-2.8.2.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache.logging.log4j/log4j-jul/jars/log4j-jul-2.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-slf4j-impl">
+			<revision name="2.8.2" status="release" pubdate="20170525154125" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="120">
+				<metadata-artifact status="no" details="" size="450" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.logging.log4j\log4j-slf4j-impl\ivy-2.8.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.8.2" rev-constraint-default="2.8.2" rev-constraint-dynamic="2.8.2" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="log4j-slf4j-impl" type="jar" ext="jar" status="no" details="" size="23124" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.logging.log4j\log4j-slf4j-impl\jars\log4j-slf4j-impl-2.8.2.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache.logging.log4j/log4j-slf4j-impl/jars/log4j-slf4j-impl-2.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-jcl">
+			<revision name="2.8.2" status="release" pubdate="20170525154043" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="119">
+				<metadata-artifact status="no" details="" size="436" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.logging.log4j\log4j-jcl\ivy-2.8.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.8.2" rev-constraint-default="2.8.2" rev-constraint-dynamic="2.8.2" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="log4j-jcl" type="jar" ext="jar" status="no" details="" size="12670" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.logging.log4j\log4j-jcl\jars\log4j-jcl-2.8.2.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache.logging.log4j/log4j-jcl/jars/log4j-jcl-2.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-core">
+			<revision name="2.8.2" status="release" pubdate="20170525154000" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="118">
+				<metadata-artifact status="no" details="" size="438" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.logging.log4j\log4j-core\ivy-2.8.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.8.2" rev-constraint-default="2.8.2" rev-constraint-dynamic="2.8.2" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="log4j-core" type="jar" ext="jar" status="no" details="" size="1407853" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.logging.log4j\log4j-core\jars\log4j-core-2.8.2.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache.logging.log4j/log4j-core/jars/log4j-core-2.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-api">
+			<revision name="2.8.2" status="release" pubdate="20170525155418" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="117">
+				<metadata-artifact status="no" details="" size="436" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.logging.log4j\log4j-api\ivy-2.8.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.8.2" rev-constraint-default="2.8.2" rev-constraint-dynamic="2.8.2" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="log4j-api" type="jar" ext="jar" status="no" details="" size="228154" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.logging.log4j\log4j-api\jars\log4j-api-2.8.2.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache.logging.log4j/log4j-api/jars/log4j-api-2.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-1.2-api">
+			<revision name="2.8.2" status="release" pubdate="20170525153918" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="116">
+				<metadata-artifact status="no" details="" size="444" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.logging.log4j\log4j-1.2-api\ivy-2.8.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.8.2" rev-constraint-default="2.8.2" rev-constraint-dynamic="2.8.2" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="log4j-1.2-api" type="jar" ext="jar" status="no" details="" size="61146" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.logging.log4j\log4j-1.2-api\jars\log4j-1.2-api-2.8.2.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache.logging.log4j/log4j-1.2-api/jars/log4j-1.2-api-2.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lmax" name="disruptor">
+			<revision name="3.3.0" status="release" pubdate="20170118181657" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="115">
+				<metadata-artifact status="no" details="" size="420" time="0" location="D:\Local_Repository\repository\ivy-cache\com.lmax\disruptor\ivy-3.3.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.3.0" rev-constraint-default="3.3.0" rev-constraint-dynamic="3.3.0" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="disruptor" type="jar" ext="jar" status="no" details="" size="79576" time="0" location="D:\Local_Repository\repository\ivy-cache\com.lmax\disruptor\jars\disruptor-3.3.0.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/com.lmax/disruptor/jars/disruptor-3.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-logging">
+			<revision name="1.2" status="release" pubdate="20170118182857" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="114">
+				<metadata-artifact status="no" details="" size="432" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-logging\ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="61829" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-logging\jars\commons-logging-1.2.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache/commons-logging/jars/commons-logging-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-configuration">
+			<revision name="1.6" status="release" pubdate="20121121152444" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="113">
+				<metadata-artifact status="no" details="" size="418" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-configuration\ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="http://192.168.138.15/org.apache/commons-configuration/ivys/ivy-1.6.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="commons-configuration" type="jar" ext="jar" status="no" details="" size="298829" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-configuration\jars\commons-configuration-1.6.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache/commons-configuration/jars/commons-configuration-1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf" name="ehcache">
+			<revision name="2.8.3" status="release" pubdate="20170207121452" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="112">
+				<metadata-artifact status="no" details="" size="414" time="0" location="D:\Local_Repository\repository\ivy-cache\net.sf\ehcache\ivy-2.8.3.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.8.3" rev-constraint-default="2.8.3" rev-constraint-dynamic="2.8.3" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="ehcache" type="jar" ext="jar" status="no" details="" size="6942428" time="0" location="D:\Local_Repository\repository\ivy-cache\net.sf\ehcache\jars\ehcache-2.8.3.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/net.sf/ehcache/jars/ehcache-2.8.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-csv">
+			<revision name="1.1" status="release" pubdate="20170301111553" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="111">
+				<metadata-artifact status="no" details="" size="424" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-csv\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="commons-csv" type="jar" ext="jar" status="no" details="" size="36888" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-csv\jars\commons-csv-1.1.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache/commons-csv/jars/commons-csv-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.8.2" status="release" pubdate="20170118184016" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="110">
+				<metadata-artifact status="no" details="" size="421" time="0" location="D:\Local_Repository\repository\ivy-cache\joda-time\joda-time\ivy-2.8.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.8.2" rev-constraint-default="2.8.2" rev-constraint-dynamic="2.8.2" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="621992" time="0" location="D:\Local_Repository\repository\ivy-cache\joda-time\joda-time\jars\joda-time-2.8.2.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/joda-time/joda-time/jars/joda-time-2.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-all">
+			<revision name="4.0.30.Final" status="release" pubdate="20170118184141" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="109">
+				<metadata-artifact status="no" details="" size="427" time="0" location="D:\Local_Repository\repository\ivy-cache\io.netty\netty-all\ivy-4.0.30.Final.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="4.0.30.Final" rev-constraint-default="4.0.30.Final" rev-constraint-dynamic="4.0.30.Final" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="netty-all" type="jar" ext="jar" status="no" details="" size="2057506" time="0" location="D:\Local_Repository\repository\ivy-cache\io.netty\netty-all\jars\netty-all-4.0.30.Final.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/io.netty/netty-all/jars/netty-all-4.0.30.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.curator" name="curator-framework">
+			<revision name="2.9.0" status="release" pubdate="20170118184223" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="108">
+				<metadata-artifact status="no" details="" size="446" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.curator\curator-framework\ivy-2.9.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="curator-framework" type="jar" ext="jar" status="no" details="" size="190334" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.curator\curator-framework\jars\curator-framework-2.9.0.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache.curator/curator-framework/jars/curator-framework-2.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.curator" name="curator-client">
+			<revision name="2.9.0" status="release" pubdate="20170118184305" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="107">
+				<metadata-artifact status="no" details="" size="440" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.curator\curator-client\ivy-2.9.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="curator-client" type="jar" ext="jar" status="no" details="" size="71909" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.curator\curator-client\jars\curator-client-2.9.0.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache.curator/curator-client/jars/curator-client-2.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.curator" name="curator-recipes">
+			<revision name="2.9.0" status="release" pubdate="20170118184347" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="106">
+				<metadata-artifact status="no" details="" size="442" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.curator\curator-recipes\ivy-2.9.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="curator-recipes" type="jar" ext="jar" status="no" details="" size="273666" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.curator\curator-recipes\jars\curator-recipes-2.9.0.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache.curator/curator-recipes/jars/curator-recipes-2.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="zookeeper">
+			<revision name="3.4.6" status="release" pubdate="20170118184430" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="105">
+				<metadata-artifact status="no" details="" size="422" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\zookeeper\ivy-3.4.6.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.4.6" rev-constraint-default="3.4.6" rev-constraint-dynamic="3.4.6" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="zookeeper" type="jar" ext="jar" status="no" details="" size="792964" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\zookeeper\jars\zookeeper-3.4.6.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache/zookeeper/jars/zookeeper-3.4.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.6.1" status="release" pubdate="20170118180908" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="104">
+				<metadata-artifact status="no" details="" size="452" time="0" location="D:\Local_Repository\repository\ivy-cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.6.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.6.1" rev-constraint-default="2.6.1" rev-constraint-dynamic="2.6.1" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="jar" ext="jar" status="no" details="" size="1166488" time="0" location="D:\Local_Repository\repository\ivy-cache\com.fasterxml.jackson.core\jackson-databind\jars\jackson-databind-2.6.1.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/com.fasterxml.jackson.core/jackson-databind/jars/jackson-databind-2.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.6.1" status="release" pubdate="20170118180743" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="103">
+				<metadata-artifact status="no" details="" size="444" time="0" location="D:\Local_Repository\repository\ivy-cache\com.fasterxml.jackson.core\jackson-core\ivy-2.6.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.6.1" rev-constraint-default="2.6.1" rev-constraint-dynamic="2.6.1" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="jackson-core" type="jar" ext="jar" status="no" details="" size="258833" time="0" location="D:\Local_Repository\repository\ivy-cache\com.fasterxml.jackson.core\jackson-core\jars\jackson-core-2.6.1.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/com.fasterxml.jackson.core/jackson-core/jars/jackson-core-2.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.6.1" status="release" pubdate="20170118184512" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="102">
+				<metadata-artifact status="no" details="" size="458" time="0" location="D:\Local_Repository\repository\ivy-cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.6.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.6.1" rev-constraint-default="2.6.1" rev-constraint-dynamic="2.6.1" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="jar" ext="jar" status="no" details="" size="46967" time="0" location="D:\Local_Repository\repository\ivy-cache\com.fasterxml.jackson.core\jackson-annotations\jars\jackson-annotations-2.6.1.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/com.fasterxml.jackson.core/jackson-annotations/jars/jackson-annotations-2.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.quartz" name="quartz">
+			<revision name="1.6.0.1" status="release" pubdate="20130913180113" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="101">
+				<metadata-artifact status="no" details="" size="392" time="0" location="D:\Local_Repository\repository\ivy-cache\org.quartz\quartz\ivy-1.6.0.1.xml" searched="false" origin-is-local="false" origin-location="http://192.168.52.211/org.quartz/quartz/ivys/ivy-1.6.0.1.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.6.0.1" rev-constraint-default="1.6.0.1" rev-constraint-dynamic="1.6.0.1" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="quartz" type="jar" ext="jar" status="no" details="" size="421601" time="0" location="D:\Local_Repository\repository\ivy-cache\org.quartz\quartz\jars\quartz-1.6.0.1.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.quartz/quartz/jars/quartz-1.6.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mybatis" name="mybatis">
+			<revision name="3.2.8" status="release" pubdate="20170207124603" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="100">
+				<metadata-artifact status="no" details="" size="419" time="0" location="D:\Local_Repository\repository\ivy-cache\org.mybatis\mybatis\ivy-3.2.8.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.2.8" rev-constraint-default="3.2.8" rev-constraint-dynamic="3.2.8" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="mybatis" type="jar" ext="jar" status="no" details="" size="714073" time="0" location="D:\Local_Repository\repository\ivy-cache\org.mybatis\mybatis\jars\mybatis-3.2.8.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.mybatis/mybatis/jars/mybatis-3.2.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="au.com.bytecode" name="opencsv">
+			<revision name="2.3" status="release" pubdate="20170228161304" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="99">
+				<metadata-artifact status="no" details="" size="421" time="0" location="D:\Local_Repository\repository\ivy-cache\au.com.bytecode\opencsv\ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="opencsv" type="jar" ext="jar" status="no" details="" size="14146" time="0" location="D:\Local_Repository\repository\ivy-cache\au.com.bytecode\opencsv\jars\opencsv-2.3.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/au.com.bytecode/opencsv/jars/opencsv-2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.99bill" name="frms-mgr-mybatis">
+			<revision name="1.0.2.3" status="integration" pubdate="20161212153800" resolver="bill99_repository_buildbuffer" artresolver="bill99_repository_buildbuffer" downloaded="false" searched="false" default="false" conf="default" position="98">
+				<metadata-artifact status="no" details="" size="1353" time="0" location="D:\Local_Repository\repository\ivy-cache\com.99bill\frms-mgr-mybatis\ivy-1.0.2.3.xml" searched="false" origin-is-local="false" origin-location="http://192.168.138.16/com.99bill/frms-mgr-mybatis/ivys/ivy-1.0.2.3.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.0.2.3" rev-constraint-default="1.0.2.3" rev-constraint-dynamic="1.0.2.3" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="frms-mgr-mybatis" type="jar" ext="jar" status="no" details="" size="821247" time="0" location="D:\Local_Repository\repository\ivy-cache\com.99bill\frms-mgr-mybatis\jars\frms-mgr-mybatis-1.0.2.3.jar">
+						<origin-location is-local="false" location="http://192.168.138.16/com.99bill/frms-mgr-mybatis/jars/frms-mgr-mybatis-1.0.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.7" status="release" pubdate="20160328123401" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="123">
+				<metadata-artifact status="no" details="" size="421" time="0" location="D:\Local_Repository\repository\ivy-cache\org.slf4j\slf4j-api\ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="29257" time="0" location="D:\Local_Repository\repository\ivy-cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.slf4j/slf4j-api/jars/slf4j-api-1.7.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.alibaba" name="fastjson">
+			<revision name="1.1.36" status="release" pubdate="20170118185009" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="97">
+				<metadata-artifact status="no" details="" size="422" time="0" location="D:\Local_Repository\repository\ivy-cache\com.alibaba\fastjson\ivy-1.1.36.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.1.36" rev-constraint-default="1.1.36" rev-constraint-dynamic="1.1.36" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="fastjson" type="jar" ext="jar" status="no" details="" size="380758" time="0" location="D:\Local_Repository\repository\ivy-cache\com.alibaba\fastjson\jars\fastjson-1.1.36.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/com.alibaba/fastjson/jars/fastjson-1.1.36.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="antlr" name="antlr">
+			<revision name="2.7.6" status="release" pubdate="20170118181243" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="96">
+				<metadata-artifact status="no" details="" size="409" time="0" location="D:\Local_Repository\repository\ivy-cache\antlr\antlr\ivy-2.7.6.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.7.6" rev-constraint-default="2.7.6" rev-constraint-dynamic="2.7.6" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="antlr" type="jar" ext="jar" status="no" details="" size="443432" time="0" location="D:\Local_Repository\repository\ivy-cache\antlr\antlr\jars\antlr-2.7.6.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/antlr/antlr/jars/antlr-2.7.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="c3p0" name="c3p0">
+			<revision name="0.9.1.2" status="release" pubdate="20170228161221" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="95">
+				<metadata-artifact status="no" details="" size="408" time="0" location="D:\Local_Repository\repository\ivy-cache\c3p0\c3p0\ivy-0.9.1.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="0.9.1.2" rev-constraint-default="0.9.1.2" rev-constraint-dynamic="0.9.1.2" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="c3p0" type="jar" ext="jar" status="no" details="" size="610790" time="0" location="D:\Local_Repository\repository\ivy-cache\c3p0\c3p0\jars\c3p0-0.9.1.2.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/c3p0/c3p0/jars/c3p0-0.9.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.ethz.ganymed" name="ganymed-ssh2">
+			<revision name="build210" status="release" pubdate="20121114153542" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="94">
+				<metadata-artifact status="no" details="" size="410" time="0" location="D:\Local_Repository\repository\ivy-cache\ch.ethz.ganymed\ganymed-ssh2\ivy-build210.xml" searched="false" origin-is-local="false" origin-location="http://192.168.138.15/ch.ethz.ganymed/ganymed-ssh2/ivys/ivy-build210.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="build210" rev-constraint-default="build210" rev-constraint-dynamic="build210" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="ganymed-ssh2" type="jar" ext="jar" status="no" details="" size="244831" time="0" location="D:\Local_Repository\repository\ivy-cache\ch.ethz.ganymed\ganymed-ssh2\jars\ganymed-ssh2-build210.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/ch.ethz.ganymed/ganymed-ssh2/jars/ganymed-ssh2-build210.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.99bill" name="eas-loan-remote-api">
+			<revision name="1.0.21.1" status="integration" pubdate="20160421153441" resolver="bill99_repository_buildbuffer" artresolver="bill99_repository_buildbuffer" downloaded="false" searched="false" default="false" conf="default" position="93">
+				<metadata-artifact status="no" details="" size="488" time="0" location="D:\Local_Repository\repository\ivy-cache\com.99bill\eas-loan-remote-api\ivy-1.0.21.1.xml" searched="false" origin-is-local="false" origin-location="http://192.168.138.16/com.99bill/eas-loan-remote-api/ivys/ivy-1.0.21.1.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.0.21.1" rev-constraint-default="1.0.21.1" rev-constraint-dynamic="1.0.21.1" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="eas-loan-remote-api" type="jar" ext="jar" status="no" details="" size="157892" time="0" location="D:\Local_Repository\repository\ivy-cache\com.99bill\eas-loan-remote-api\jars\eas-loan-remote-api-1.0.21.1.jar">
+						<origin-location is-local="false" location="http://192.168.138.16/com.99bill/eas-loan-remote-api/jars/eas-loan-remote-api-1.0.21.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.99bill" name="if-acms-client">
+			<revision name="4.3.56.2" status="integration" pubdate="20160222094555" resolver="bill99_repository_buildbuffer" artresolver="bill99_repository_buildbuffer" downloaded="false" searched="false" default="false" conf="default" position="92">
+				<metadata-artifact status="no" details="" size="1950" time="0" location="D:\Local_Repository\repository\ivy-cache\com.99bill\if-acms-client\ivy-4.3.56.2.xml" searched="false" origin-is-local="false" origin-location="http://192.168.138.16/com.99bill/if-acms-client/ivys/ivy-4.3.56.2.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="4.3.56.2" rev-constraint-default="4.3.56.2" rev-constraint-dynamic="4.3.56.2" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="if-acms-client" type="jar" ext="jar" status="no" details="" size="44709" time="0" location="D:\Local_Repository\repository\ivy-cache\com.99bill\if-acms-client\jars\if-acms-client-4.3.56.2.jar">
+						<origin-location is-local="false" location="http://192.168.138.16/com.99bill/if-acms-client/jars/if-acms-client-4.3.56.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.99bill" name="if-email-client">
+			<revision name="1.0.0.2" status="integration" pubdate="20131219104827" resolver="bill99_repository_buildbuffer" artresolver="bill99_repository_buildbuffer" downloaded="false" searched="false" default="false" conf="default" position="91">
+				<metadata-artifact status="no" details="" size="668" time="0" location="D:\Local_Repository\repository\ivy-cache\com.99bill\if-email-client\ivy-1.0.0.2.xml" searched="false" origin-is-local="false" origin-location="http://192.168.138.16/com.99bill/if-email-client/ivys/ivy-1.0.0.2.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.0.0.2" rev-constraint-default="1.0.0.2" rev-constraint-dynamic="1.0.0.2" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="if-email-client" type="jar" ext="jar" status="no" details="" size="9835" time="0" location="D:\Local_Repository\repository\ivy-cache\com.99bill\if-email-client\jars\if-email-client-1.0.0.2.jar">
+						<origin-location is-local="false" location="http://192.168.138.16/com.99bill/if-email-client/jars/if-email-client-1.0.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.99bill" name="if-enumhelper">
+			<revision name="4.3.1" status="release" pubdate="20121121154410" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="90">
+				<metadata-artifact status="no" details="" size="404" time="0" location="D:\Local_Repository\repository\ivy-cache\com.99bill\if-enumhelper\ivy-4.3.1.xml" searched="false" origin-is-local="false" origin-location="http://192.168.138.15/com.99bill/if-enumhelper/ivys/ivy-4.3.1.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="4.3.1" rev-constraint-default="4.3.1" rev-constraint-dynamic="4.3.1" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="if-enumhelper" type="jar" ext="jar" status="no" details="" size="212239" time="0" location="D:\Local_Repository\repository\ivy-cache\com.99bill\if-enumhelper\jars\if-enumhelper-4.3.1.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/com.99bill/if-enumhelper/jars/if-enumhelper-4.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.99bill" name="if-fss-client">
+			<revision name="4.3.44.5" status="integration" pubdate="20130320165800" resolver="bill99_repository_buildbuffer" artresolver="bill99_repository_buildbuffer" downloaded="false" searched="false" default="false" conf="default" position="89">
+				<metadata-artifact status="no" details="" size="1905" time="0" location="D:\Local_Repository\repository\ivy-cache\com.99bill\if-fss-client\ivy-4.3.44.5.xml" searched="false" origin-is-local="false" origin-location="http://192.168.138.16/com.99bill/if-fss-client/ivys/ivy-4.3.44.5.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="4.3.44.5" rev-constraint-default="4.3.44.5" rev-constraint-dynamic="4.3.44.5" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="if-fss-client" type="jar" ext="jar" status="no" details="" size="79055" time="0" location="D:\Local_Repository\repository\ivy-cache\com.99bill\if-fss-client\jars\if-fss-client-4.3.44.5.jar">
+						<origin-location is-local="false" location="http://192.168.138.16/com.99bill/if-fss-client/jars/if-fss-client-4.3.44.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.caucho" name="hessian">
+			<revision name="3.1.6" status="release" pubdate="20121121152407" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="88">
+				<metadata-artifact status="no" details="" size="392" time="0" location="D:\Local_Repository\repository\ivy-cache\com.caucho\hessian\ivy-3.1.6.xml" searched="false" origin-is-local="false" origin-location="http://192.168.138.15/com.caucho/hessian/ivys/ivy-3.1.6.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.1.6" rev-constraint-default="3.1.6" rev-constraint-dynamic="3.1.6" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="hessian" type="jar" ext="jar" status="no" details="" size="277038" time="0" location="D:\Local_Repository\repository\ivy-cache\com.caucho\hessian\jars\hessian-3.1.6.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/com.caucho/hessian/jars/hessian-3.1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.mysema" name="querydsl-core">
+			<revision name="3.2.0" status="release" pubdate="20170228110137" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="87">
+				<metadata-artifact status="no" details="" size="430" time="0" location="D:\Local_Repository\repository\ivy-cache\com.mysema\querydsl-core\ivy-3.2.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.2.0" rev-constraint-default="3.2.0" rev-constraint-dynamic="3.2.0" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="querydsl-core" type="jar" ext="jar" status="no" details="" size="388922" time="0" location="D:\Local_Repository\repository\ivy-cache\com.mysema\querydsl-core\jars\querydsl-core-3.2.0.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/com.mysema/querydsl-core/jars/querydsl-core-3.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.mysema.commons.lang" name="mysema-commons-lang">
+			<revision name="0.2.4" status="release" pubdate="20170228110208" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="86">
+				<metadata-artifact status="no" details="" size="455" time="0" location="D:\Local_Repository\repository\ivy-cache\com.mysema.commons.lang\mysema-commons-lang\ivy-0.2.4.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="0.2.4" rev-constraint-default="0.2.4" rev-constraint-dynamic="0.2.4" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="mysema-commons-lang" type="jar" ext="jar" status="no" details="" size="12050" time="0" location="D:\Local_Repository\repository\ivy-cache\com.mysema.commons.lang\mysema-commons-lang\jars\mysema-commons-lang-0.2.4.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/com.mysema.commons.lang/mysema-commons-lang/jars/mysema-commons-lang-0.2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.mysema.query.jpa" name="querydsl-jpa">
+			<revision name="3.2.0" status="release" pubdate="20170228110238" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="85">
+				<metadata-artifact status="no" details="" size="438" time="0" location="D:\Local_Repository\repository\ivy-cache\com.mysema.query.jpa\querydsl-jpa\ivy-3.2.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.2.0" rev-constraint-default="3.2.0" rev-constraint-dynamic="3.2.0" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="querydsl-jpa" type="jar" ext="jar" status="no" details="" size="99328" time="0" location="D:\Local_Repository\repository\ivy-cache\com.mysema.query.jpa\querydsl-jpa\jars\querydsl-jpa-3.2.0.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/com.mysema.query.jpa/querydsl-jpa/jars/querydsl-jpa-3.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.rabbitmq" name="amqp-client">
+			<revision name="2.8.4" status="release" pubdate="20170228110308" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="84">
+				<metadata-artifact status="no" details="" size="428" time="0" location="D:\Local_Repository\repository\ivy-cache\com.rabbitmq\amqp-client\ivy-2.8.4.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.8.4" rev-constraint-default="2.8.4" rev-constraint-dynamic="2.8.4" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="amqp-client" type="jar" ext="jar" status="no" details="" size="349078" time="0" location="D:\Local_Repository\repository\ivy-cache\com.rabbitmq\amqp-client\jars\amqp-client-2.8.4.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/com.rabbitmq/amqp-client/jars/amqp-client-2.8.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks" name="xstream">
+			<revision name="1.4.3" status="release" pubdate="20170228111314" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="83">
+				<metadata-artifact status="no" details="" size="424" time="0" location="D:\Local_Repository\repository\ivy-cache\com.thoughtworks\xstream\ivy-1.4.3.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.4.3" rev-constraint-default="1.4.3" rev-constraint-dynamic="1.4.3" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="xstream" type="jar" ext="jar" status="no" details="" size="481770" time="0" location="D:\Local_Repository\repository\ivy-cache\com.thoughtworks\xstream\jars\xstream-1.4.3.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/com.thoughtworks/xstream/jars/xstream-1.4.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.tibco" name="tibjms">
+			<revision name="6.0.1" status="release" pubdate="20121121152824" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="82">
+				<metadata-artifact status="no" details="" size="389" time="0" location="D:\Local_Repository\repository\ivy-cache\com.tibco\tibjms\ivy-6.0.1.xml" searched="false" origin-is-local="false" origin-location="http://192.168.138.15/com.tibco/tibjms/ivys/ivy-6.0.1.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="6.0.1" rev-constraint-default="6.0.1" rev-constraint-dynamic="6.0.1" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="tibjms" type="jar" ext="jar" status="no" details="" size="327698" time="0" location="D:\Local_Repository\repository\ivy-cache\com.tibco\tibjms\jars\tibjms-6.0.1.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/com.tibco/tibjms/jars/tibjms-6.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-dbcp" name="commons-dbcp">
+			<revision name="1.4" status="release" pubdate="20170228155730" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="81">
+				<metadata-artifact status="no" details="" size="428" time="0" location="D:\Local_Repository\repository\ivy-cache\commons-dbcp\commons-dbcp\ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="commons-dbcp" type="jar" ext="jar" status="no" details="" size="160519" time="0" location="D:\Local_Repository\repository\ivy-cache\commons-dbcp\commons-dbcp\jars\commons-dbcp-1.4.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/commons-dbcp/commons-dbcp/jars/commons-dbcp-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.4" status="release" pubdate="20170228111344" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="80">
+				<metadata-artifact status="no" details="" size="422" time="0" location="D:\Local_Repository\repository\ivy-cache\commons-io\commons-io\ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="185140" time="0" location="D:\Local_Repository\repository\ivy-cache\commons-io\commons-io\jars\commons-io-2.4.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/commons-io/commons-io/jars/commons-io-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="j2ee" name="jta">
+			<revision name="1.1" status="release" pubdate="20121121152418" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="79">
+				<metadata-artifact status="no" details="" size="376" time="0" location="D:\Local_Repository\repository\ivy-cache\j2ee\jta\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="http://192.168.138.15/j2ee/jta/ivys/ivy-1.1.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="jta" type="jar" ext="jar" status="no" details="" size="13236" time="0" location="D:\Local_Repository\repository\ivy-cache\j2ee\jta\jars\jta-1.1.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/j2ee/jta/jars/jta-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="j2ee" name="stax-api">
+			<revision name="1.0.1" status="release" pubdate="20121121152609" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="78">
+				<metadata-artifact status="no" details="" size="388" time="0" location="D:\Local_Repository\repository\ivy-cache\j2ee\stax-api\ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="http://192.168.138.15/j2ee/stax-api/ivys/ivy-1.0.1.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="stax-api" type="jar" ext="jar" status="no" details="" size="26514" time="0" location="D:\Local_Repository\repository\ivy-cache\j2ee\stax-api\jars\stax-api-1.0.1.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/j2ee/stax-api/jars/stax-api-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javassist" name="javassist">
+			<revision name="3.12.0.GA" status="release" pubdate="20170228111415" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="77">
+				<metadata-artifact status="no" details="" size="425" time="0" location="D:\Local_Repository\repository\ivy-cache\javassist\javassist\ivy-3.12.0.GA.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.12.0.GA" rev-constraint-default="3.12.0.GA" rev-constraint-dynamic="3.12.0.GA" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="javassist" type="jar" ext="jar" status="no" details="" size="633312" time="0" location="D:\Local_Repository\repository\ivy-cache\javassist\javassist\jars\javassist-3.12.0.GA.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/javassist/javassist/jars/javassist-3.12.0.GA.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.annotation" name="jsr305">
+			<revision name="1.3.9" status="release" pubdate="20170228111445" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="76">
+				<metadata-artifact status="no" details="" size="422" time="0" location="D:\Local_Repository\repository\ivy-cache\javax.annotation\jsr305\ivy-1.3.9.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.3.9" rev-constraint-default="1.3.9" rev-constraint-dynamic="1.3.9" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="jsr305" type="jar" ext="jar" status="no" details="" size="33015" time="0" location="D:\Local_Repository\repository\ivy-cache\javax.annotation\jsr305\jars\jsr305-1.3.9.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/javax.annotation/jsr305/jars/jsr305-1.3.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.inject" name="javax-inject">
+			<revision name="1.0" status="release" pubdate="20170207120914" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="75">
+				<metadata-artifact status="no" details="" size="428" time="0" location="D:\Local_Repository\repository\ivy-cache\javax.inject\javax-inject\ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="javax-inject" type="jar" ext="jar" status="no" details="" size="2497" time="0" location="D:\Local_Repository\repository\ivy-cache\javax.inject\javax-inject\jars\javax-inject-1.0.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/javax.inject/javax-inject/jars/javax-inject-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.jms" name="jms">
+			<revision name="6.0" status="release" pubdate="20130913180107" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="74">
+				<metadata-artifact status="no" details="" size="381" time="0" location="D:\Local_Repository\repository\ivy-cache\javax.jms\jms\ivy-6.0.xml" searched="false" origin-is-local="false" origin-location="http://192.168.138.15/javax.jms/jms/ivys/ivy-6.0.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="6.0" rev-constraint-default="6.0" rev-constraint-dynamic="6.0" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="jms" type="jar" ext="jar" status="no" details="" size="25998" time="0" location="D:\Local_Repository\repository\ivy-cache\javax.jms\jms\jars\jms-6.0.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/javax.jms/jms/jars/jms-6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.servlet" name="servlet-api">
+			<revision name="2.5" status="release" pubdate="20170228111515" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="73">
+				<metadata-artifact status="no" details="" size="427" time="0" location="D:\Local_Repository\repository\ivy-cache\javax.servlet\servlet-api\ivy-2.5.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="servlet-api" type="jar" ext="jar" status="no" details="" size="105112" time="0" location="D:\Local_Repository\repository\ivy-cache\javax.servlet\servlet-api\jars\servlet-api-2.5.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/javax.servlet/servlet-api/jars/servlet-api-2.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.xml" name="jaxrpc-api">
+			<revision name="1.1" status="release" pubdate="20121114154510" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="72">
+				<metadata-artifact status="no" details="" size="395" time="0" location="D:\Local_Repository\repository\ivy-cache\javax.xml\jaxrpc-api\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="http://192.168.138.15/javax.xml/jaxrpc-api/ivys/ivy-1.1.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="jaxrpc-api" type="jar" ext="jar" status="no" details="" size="28492" time="0" location="D:\Local_Repository\repository\ivy-cache\javax.xml\jaxrpc-api\jars\jaxrpc-api-1.1.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/javax.xml/jaxrpc-api/jars/jaxrpc-api-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jline" name="jline">
+			<revision name="1.0" status="release" pubdate="20170228155605" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="71">
+				<metadata-artifact status="no" details="" size="407" time="0" location="D:\Local_Repository\repository\ivy-cache\jline\jline\ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="jline" type="jar" ext="jar" status="no" details="" size="91225" time="0" location="D:\Local_Repository\repository\ivy-cache\jline\jline\jars\jline-1.0.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/jline/jline/jars/jline-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf" name="cglib">
+			<revision name="2.2.2" status="release" pubdate="20170207113520" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="70">
+				<metadata-artifact status="no" details="" size="410" time="0" location="D:\Local_Repository\repository\ivy-cache\net.sf\cglib\ivy-2.2.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="cglib" type="jar" ext="jar" status="no" details="" size="287192" time="0" location="D:\Local_Repository\repository\ivy-cache\net.sf\cglib\jars\cglib-2.2.2.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/net.sf/cglib/jars/cglib-2.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf" name="ezmorph">
+			<revision name="1.0.4" status="release" pubdate="20170228111616" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="69">
+				<metadata-artifact status="no" details="" size="414" time="0" location="D:\Local_Repository\repository\ivy-cache\net.sf\ezmorph\ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="ezmorph" type="jar" ext="jar" status="no" details="" size="86381" time="0" location="D:\Local_Repository\repository\ivy-cache\net.sf\ezmorph\jars\ezmorph-1.0.4.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/net.sf/ezmorph/jars/ezmorph-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf" name="json-lib">
+			<revision name="2.2.2-jdk15" status="release" pubdate="20170228111646" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="68">
+				<metadata-artifact status="no" details="" size="422" time="0" location="D:\Local_Repository\repository\ivy-cache\net.sf\json-lib\ivy-2.2.2-jdk15.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.2.2-jdk15" rev-constraint-default="2.2.2-jdk15" rev-constraint-dynamic="2.2.2-jdk15" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="json-lib" type="jar" ext="jar" status="no" details="" size="143977" time="0" location="D:\Local_Repository\repository\ivy-cache\net.sf\json-lib\jars\json-lib-2.2.2-jdk15.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/net.sf/json-lib/jars/json-lib-2.2.2-jdk15.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf" name="json-lib-ext-spring">
+			<revision name="1.0.2" status="release" pubdate="20170228111716" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="67">
+				<metadata-artifact status="no" details="" size="438" time="0" location="D:\Local_Repository\repository\ivy-cache\net.sf\json-lib-ext-spring\ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="json-lib-ext-spring" type="jar" ext="jar" status="no" details="" size="6448" time="0" location="D:\Local_Repository\repository\ivy-cache\net.sf\json-lib-ext-spring\jars\json-lib-ext-spring-1.0.2.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/net.sf/json-lib-ext-spring/jars/json-lib-ext-spring-1.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="antlr-runtime">
+			<revision name="3.3" status="release" pubdate="20170228111746" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="66">
+				<metadata-artifact status="no" details="" size="427" time="0" location="D:\Local_Repository\repository\ivy-cache\org.antlr\antlr-runtime\ivy-3.3.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.3" rev-constraint-default="3.3" rev-constraint-dynamic="3.3" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="antlr-runtime" type="jar" ext="jar" status="no" details="" size="163650" time="0" location="D:\Local_Repository\repository\ivy-cache\org.antlr\antlr-runtime\jars\antlr-runtime-3.3.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.antlr/antlr-runtime/jars/antlr-runtime-3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="stringtemplate">
+			<revision name="3.2" status="release" pubdate="20121114154826" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="65">
+				<metadata-artifact status="no" details="" size="403" time="0" location="D:\Local_Repository\repository\ivy-cache\org.antlr\stringtemplate\ivy-3.2.xml" searched="false" origin-is-local="false" origin-location="http://192.168.138.15/org.antlr/stringtemplate/ivys/ivy-3.2.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.2" rev-constraint-default="3.2" rev-constraint-dynamic="3.2" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="stringtemplate" type="jar" ext="jar" status="no" details="" size="172023" time="0" location="D:\Local_Repository\repository\ivy-cache\org.antlr\stringtemplate\jars\stringtemplate-3.2.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.antlr/stringtemplate/jars/stringtemplate-3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-beanutils">
+			<revision name="1.8.3" status="release" pubdate="20121121152625" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="64">
+				<metadata-artifact status="no" details="" size="412" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-beanutils\ivy-1.8.3.xml" searched="false" origin-is-local="false" origin-location="http://192.168.138.15/org.apache/commons-beanutils/ivys/ivy-1.8.3.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="commons-beanutils" type="jar" ext="jar" status="no" details="" size="232019" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-beanutils\jars\commons-beanutils-1.8.3.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache/commons-beanutils/jars/commons-beanutils-1.8.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-cli">
+			<revision name="1.2" status="release" pubdate="20170228155523" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="63">
+				<metadata-artifact status="no" details="" size="424" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-cli\ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="commons-cli" type="jar" ext="jar" status="no" details="" size="41123" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-cli\jars\commons-cli-1.2.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache/commons-cli/jars/commons-cli-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-codec">
+			<revision name="1.7" status="release" pubdate="20170228111847" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="62">
+				<metadata-artifact status="no" details="" size="428" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-codec\ivy-1.7.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="259600" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-codec\jars\commons-codec-1.7.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache/commons-codec/jars/commons-codec-1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-collections">
+			<revision name="3.1" status="release" pubdate="20121121152505" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="61">
+				<metadata-artifact status="no" details="" size="414" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-collections\ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="http://192.168.138.15/org.apache/commons-collections/ivys/ivy-3.1.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="559366" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-collections\jars\commons-collections-3.1.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache/commons-collections/jars/commons-collections-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-daemon">
+			<revision name="1.0.10" status="release" pubdate="20170228111918" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="60">
+				<metadata-artifact status="no" details="" size="433" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-daemon\ivy-1.0.10.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.0.10" rev-constraint-default="1.0.10" rev-constraint-dynamic="1.0.10" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="commons-daemon" type="jar" ext="jar" status="no" details="" size="24242" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-daemon\jars\commons-daemon-1.0.10.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache/commons-daemon/jars/commons-daemon-1.0.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-discovery">
+			<revision name="0.2" status="release" pubdate="20121121152505" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="59">
+				<metadata-artifact status="no" details="" size="410" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-discovery\ivy-0.2.xml" searched="false" origin-is-local="false" origin-location="http://192.168.138.15/org.apache/commons-discovery/ivys/ivy-0.2.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="0.2" rev-constraint-default="0.2" rev-constraint-dynamic="0.2" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="commons-discovery" type="jar" ext="jar" status="no" details="" size="71442" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-discovery\jars\commons-discovery-0.2.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache/commons-discovery/jars/commons-discovery-0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-fileupload">
+			<revision name="1.2.2" status="release" pubdate="20170228111948" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="58">
+				<metadata-artifact status="no" details="" size="440" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-fileupload\ivy-1.2.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="commons-fileupload" type="jar" ext="jar" status="no" details="" size="59590" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-fileupload\jars\commons-fileupload-1.2.2.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache/commons-fileupload/jars/commons-fileupload-1.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-httpclient">
+			<revision name="3.1" status="release" pubdate="20170207121535" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="57">
+				<metadata-artifact status="no" details="" size="438" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-httpclient\ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="commons-httpclient" type="jar" ext="jar" status="no" details="" size="260190" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-httpclient\jars\commons-httpclient-3.1.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache/commons-httpclient/jars/commons-httpclient-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-lang">
+			<revision name="2.6" status="release" pubdate="20130913180045" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="56">
+				<metadata-artifact status="no" details="" size="400" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-lang\ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="http://192.168.138.15/org.apache/commons-lang/ivys/ivy-2.6.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="commons-lang" type="jar" ext="jar" status="no" details="" size="284220" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-lang\jars\commons-lang-2.6.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache/commons-lang/jars/commons-lang-2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-net">
+			<revision name="3.2" status="release" pubdate="20170228112049" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="55">
+				<metadata-artifact status="no" details="" size="424" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-net\ivy-3.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.2" rev-constraint-default="3.2" rev-constraint-dynamic="3.2" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="commons-net" type="jar" ext="jar" status="no" details="" size="275501" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-net\jars\commons-net-3.2.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache/commons-net/jars/commons-net-3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-pool">
+			<revision name="1.6" status="release" pubdate="20170228112119" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="54">
+				<metadata-artifact status="no" details="" size="426" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-pool\ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="commons-pool" type="jar" ext="jar" status="no" details="" size="111119" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\commons-pool\jars\commons-pool-1.6.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache/commons-pool/jars/commons-pool-1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="httpmime">
+			<revision name="4.4" status="release" pubdate="20170228155440" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="53">
+				<metadata-artifact status="no" details="" size="418" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\httpmime\ivy-4.4.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="4.4" rev-constraint-default="4.4" rev-constraint-dynamic="4.4" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="httpmime" type="jar" ext="jar" status="no" details="" size="40627" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\httpmime\jars\httpmime-4.4.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache/httpmime/jars/httpmime-4.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="jcl-over-slf4j">
+			<revision name="1.7.2" status="release" pubdate="20170228112149" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="52">
+				<metadata-artifact status="no" details="" size="432" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\jcl-over-slf4j\ivy-1.7.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="jcl-over-slf4j" type="jar" ext="jar" status="no" details="" size="16457" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.2.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="poi-ooxml">
+			<revision name="3.9" status="release" pubdate="20170118185812" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="51">
+				<metadata-artifact status="no" details="" size="420" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\poi-ooxml\ivy-3.9.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.9" rev-constraint-default="3.9" rev-constraint-dynamic="3.9" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="poi-ooxml" type="jar" ext="jar" status="no" details="" size="936648" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\poi-ooxml\jars\poi-ooxml-3.9.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache/poi-ooxml/jars/poi-ooxml-3.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="poi-ooxml-schemas">
+			<revision name="3.9" status="release" pubdate="20170118185855" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="50">
+				<metadata-artifact status="no" details="" size="436" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\poi-ooxml-schemas\ivy-3.9.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.9" rev-constraint-default="3.9" rev-constraint-dynamic="3.9" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="poi-ooxml-schemas" type="jar" ext="jar" status="no" details="" size="4802621" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\poi-ooxml-schemas\jars\poi-ooxml-schemas-3.9.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache/poi-ooxml-schemas/jars/poi-ooxml-schemas-3.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="xml-apis">
+			<revision name="1.0.b2" status="release" pubdate="20121121152834" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="49">
+				<metadata-artifact status="no" details="" size="395" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\xml-apis\ivy-1.0.b2.xml" searched="false" origin-is-local="false" origin-location="http://192.168.138.15/org.apache/xml-apis/ivys/ivy-1.0.b2.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.0.b2" rev-constraint-default="1.0.b2" rev-constraint-dynamic="1.0.b2" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="xml-apis" type="jar" ext="jar" status="no" details="" size="109318" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\xml-apis\jars\xml-apis-1.0.b2.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache/xml-apis/jars/xml-apis-1.0.b2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="xmlbeans">
+			<revision name="2.6.0" status="release" pubdate="20170207121948" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="48">
+				<metadata-artifact status="no" details="" size="420" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\xmlbeans\ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="xmlbeans" type="jar" ext="jar" status="no" details="" size="2730866" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache\xmlbeans\jars\xmlbeans-2.6.0.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache/xmlbeans/jars/xmlbeans-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.4.1" status="release" pubdate="20170118183022" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="47">
+				<metadata-artifact status="no" details="" size="439" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.httpcomponents\httpclient\ivy-4.4.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="4.4.1" rev-constraint-default="4.4.1" rev-constraint-dynamic="4.4.1" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="httpclient" type="jar" ext="jar" status="no" details="" size="720931" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.4.1.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache.httpcomponents/httpclient/jars/httpclient-4.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.4.1" status="release" pubdate="20170118183104" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="46">
+				<metadata-artifact status="no" details="" size="435" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.httpcomponents\httpcore\ivy-4.4.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="4.4.1" rev-constraint-default="4.4.1" rev-constraint-dynamic="4.4.1" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="322234" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.4.1.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache.httpcomponents/httpcore/jars/httpcore-4.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi">
+			<revision name="3.9" status="release" pubdate="20170228112250" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="45">
+				<metadata-artifact status="no" details="" size="412" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.poi\poi\ivy-3.9.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.9" rev-constraint-default="3.9" rev-constraint-dynamic="3.9" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="poi" type="jar" ext="jar" status="no" details="" size="1869113" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.poi\poi\jars\poi-3.9.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache.poi/poi/jars/poi-3.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.aspectj" name="aspectjrt">
+			<revision name="1.7.1" status="release" pubdate="20170228112320" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="44">
+				<metadata-artifact status="no" details="" size="423" time="0" location="D:\Local_Repository\repository\ivy-cache\org.aspectj\aspectjrt\ivy-1.7.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="aspectjrt" type="jar" ext="jar" status="no" details="" size="116218" time="0" location="D:\Local_Repository\repository\ivy-cache\org.aspectj\aspectjrt\jars\aspectjrt-1.7.1.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.aspectj/aspectjrt/jars/aspectjrt-1.7.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.aspectj" name="aspectjtools">
+			<revision name="1.7.1" status="release" pubdate="20170228112351" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="43">
+				<metadata-artifact status="no" details="" size="429" time="0" location="D:\Local_Repository\repository\ivy-cache\org.aspectj\aspectjtools\ivy-1.7.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="aspectjtools" type="jar" ext="jar" status="no" details="" size="9893766" time="0" location="D:\Local_Repository\repository\ivy-cache\org.aspectj\aspectjtools\jars\aspectjtools-1.7.1.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.aspectj/aspectjtools/jars/aspectjtools-1.7.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.aspectj" name="aspectjweaver">
+			<revision name="1.7.1" status="release" pubdate="20170228112421" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="42">
+				<metadata-artifact status="no" details="" size="431" time="0" location="D:\Local_Repository\repository\ivy-cache\org.aspectj\aspectjweaver\ivy-1.7.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="aspectjweaver" type="jar" ext="jar" status="no" details="" size="1791359" time="0" location="D:\Local_Repository\repository\ivy-cache\org.aspectj\aspectjweaver\jars\aspectjweaver-1.7.1.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.aspectj/aspectjweaver/jars/aspectjweaver-1.7.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus" name="jackson-core-lgpl">
+			<revision name="1.9.11" status="release" pubdate="20170228112451" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="41">
+				<metadata-artifact status="no" details="" size="441" time="0" location="D:\Local_Repository\repository\ivy-cache\org.codehaus\jackson-core-lgpl\ivy-1.9.11.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.9.11" rev-constraint-default="1.9.11" rev-constraint-dynamic="1.9.11" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="jackson-core-lgpl" type="jar" ext="jar" status="no" details="" size="237550" time="0" location="D:\Local_Repository\repository\ivy-cache\org.codehaus\jackson-core-lgpl\jars\jackson-core-lgpl-1.9.11.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.codehaus/jackson-core-lgpl/jars/jackson-core-lgpl-1.9.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus" name="jackson-mapper-lgpl">
+			<revision name="1.9.11" status="release" pubdate="20170228112522" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="40">
+				<metadata-artifact status="no" details="" size="445" time="0" location="D:\Local_Repository\repository\ivy-cache\org.codehaus\jackson-mapper-lgpl\ivy-1.9.11.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.9.11" rev-constraint-default="1.9.11" rev-constraint-dynamic="1.9.11" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="jackson-mapper-lgpl" type="jar" ext="jar" status="no" details="" size="785839" time="0" location="D:\Local_Repository\repository\ivy-cache\org.codehaus\jackson-mapper-lgpl\jars\jackson-mapper-lgpl-1.9.11.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.codehaus/jackson-mapper-lgpl/jars/jackson-mapper-lgpl-1.9.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus" name="jettison">
+			<revision name="1.1" status="release" pubdate="20121121152857" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="39">
+				<metadata-artifact status="no" details="" size="394" time="0" location="D:\Local_Repository\repository\ivy-cache\org.codehaus\jettison\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="http://192.168.138.15/org.codehaus/jettison/ivys/ivy-1.1.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="jettison" type="jar" ext="jar" status="no" details="" size="67758" time="0" location="D:\Local_Repository\repository\ivy-cache\org.codehaus\jettison\jars\jettison-1.1.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.codehaus/jettison/jars/jettison-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.dom4j" name="dom4j">
+			<revision name="1.6.1" status="release" pubdate="20121121152522" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="38">
+				<metadata-artifact status="no" details="" size="387" time="0" location="D:\Local_Repository\repository\ivy-cache\org.dom4j\dom4j\ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="http://192.168.138.15/org.dom4j/dom4j/ivys/ivy-1.6.1.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="dom4j" type="jar" ext="jar" status="no" details="" size="313898" time="0" location="D:\Local_Repository\repository\ivy-cache\org.dom4j\dom4j\jars\dom4j-1.6.1.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.dom4j/dom4j/jars/dom4j-1.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse" name="ecj">
+			<revision name="3.5.1" status="release" pubdate="20121121152849" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="37">
+				<metadata-artifact status="no" details="" size="385" time="0" location="D:\Local_Repository\repository\ivy-cache\org.eclipse\ecj\ivy-3.5.1.xml" searched="false" origin-is-local="false" origin-location="http://192.168.138.15/org.eclipse/ecj/ivys/ivy-3.5.1.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.5.1" rev-constraint-default="3.5.1" rev-constraint-dynamic="3.5.1" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="ecj" type="jar" ext="jar" status="no" details="" size="1674737" time="0" location="D:\Local_Repository\repository\ivy-cache\org.eclipse\ecj\jars\ecj-3.5.1.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.eclipse/ecj/jars/ecj-3.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json" name="json">
+			<revision name="20090211" status="release" pubdate="20170228113226" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="36">
+				<metadata-artifact status="no" details="" size="413" time="0" location="D:\Local_Repository\repository\ivy-cache\org.json\json\ivy-20090211.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="20090211" rev-constraint-default="20090211" rev-constraint-dynamic="20090211" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="json" type="jar" ext="jar" status="no" details="" size="45944" time="0" location="D:\Local_Repository\repository\ivy-cache\org.json\json\jars\json-20090211.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.json/json/jars/json-20090211.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit" name="junit">
+			<revision name="4.10" status="release" pubdate="20160329160655" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="35">
+				<metadata-artifact status="no" details="" size="412" time="0" location="D:\Local_Repository\repository\ivy-cache\org.junit\junit\ivy-4.10.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="4.10" rev-constraint-default="4.10" rev-constraint-dynamic="4.10" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="junit" type="jar" ext="jar" status="no" details="" size="253160" time="0" location="D:\Local_Repository\repository\ivy-cache\org.junit\junit\jars\junit-4.10.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.junit/junit/jars/junit-4.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jxl" name="jxl">
+			<revision name="2.6.12" status="release" pubdate="20170228113256" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="34">
+				<metadata-artifact status="no" details="" size="408" time="0" location="D:\Local_Repository\repository\ivy-cache\org.jxl\jxl\ivy-2.6.12.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.6.12" rev-constraint-default="2.6.12" rev-constraint-dynamic="2.6.12" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="jxl" type="jar" ext="jar" status="no" details="" size="725735" time="0" location="D:\Local_Repository\repository\ivy-cache\org.jxl\jxl\jars\jxl-2.6.12.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.jxl/jxl/jars/jxl-2.6.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mvel2" name="mvel2">
+			<revision name="2.1.3.Final" status="release" pubdate="20170228113326" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="33">
+				<metadata-artifact status="no" details="" size="419" time="0" location="D:\Local_Repository\repository\ivy-cache\org.mvel2\mvel2\ivy-2.1.3.Final.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.1.3.Final" rev-constraint-default="2.1.3.Final" rev-constraint-dynamic="2.1.3.Final" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="mvel2" type="jar" ext="jar" status="no" details="" size="741232" time="0" location="D:\Local_Repository\repository\ivy-cache\org.mvel2\mvel2\jars\mvel2-2.1.3.Final.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.mvel2/mvel2/jars/mvel2-2.1.3.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.objectweb" name="asm">
+			<revision name="3.3.1" status="release" pubdate="20170228113357" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="32">
+				<metadata-artifact status="no" details="" size="413" time="0" location="D:\Local_Repository\repository\ivy-cache\org.objectweb\asm\ivy-3.3.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.3.1" rev-constraint-default="3.3.1" rev-constraint-dynamic="3.3.1" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="asm" type="jar" ext="jar" status="no" details="" size="43581" time="0" location="D:\Local_Repository\repository\ivy-cache\org.objectweb\asm\jars\asm-3.3.1.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.objectweb/asm/jars/asm-3.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.simpleframework" name="spring-data-commons">
+			<revision name="1.6.5.RELEASE" status="release" pubdate="20170228113427" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="31">
+				<metadata-artifact status="no" details="" size="459" time="0" location="D:\Local_Repository\repository\ivy-cache\org.simpleframework\spring-data-commons\ivy-1.6.5.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.6.5.RELEASE" rev-constraint-default="1.6.5.RELEASE" rev-constraint-dynamic="1.6.5.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-data-commons" type="jar" ext="jar" status="no" details="" size="388250" time="0" location="D:\Local_Repository\repository\ivy-cache\org.simpleframework\spring-data-commons\jars\spring-data-commons-1.6.5.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.simpleframework/spring-data-commons/jars/spring-data-commons-1.6.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.simpleframework" name="spring-data-jpa">
+			<revision name="1.4.5.RELEASE" status="release" pubdate="20170228113458" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="30">
+				<metadata-artifact status="no" details="" size="451" time="0" location="D:\Local_Repository\repository\ivy-cache\org.simpleframework\spring-data-jpa\ivy-1.4.5.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.4.5.RELEASE" rev-constraint-default="1.4.5.RELEASE" rev-constraint-dynamic="1.4.5.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-data-jpa" type="jar" ext="jar" status="no" details="" size="172505" time="0" location="D:\Local_Repository\repository\ivy-cache\org.simpleframework\spring-data-jpa\jars\spring-data-jpa-1.4.5.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.simpleframework/spring-data-jpa/jars/spring-data-jpa-1.4.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spring" name="spring-batch-core">
+			<revision name="2.1.9.RELEASE" status="release" pubdate="20170228155026" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="29">
+				<metadata-artifact status="no" details="" size="446" time="0" location="D:\Local_Repository\repository\ivy-cache\org.spring\spring-batch-core\ivy-2.1.9.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.1.9.RELEASE" rev-constraint-default="2.1.9.RELEASE" rev-constraint-dynamic="2.1.9.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-batch-core" type="jar" ext="jar" status="no" details="" size="467433" time="0" location="D:\Local_Repository\repository\ivy-cache\org.spring\spring-batch-core\jars\spring-batch-core-2.1.9.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.spring/spring-batch-core/jars/spring-batch-core-2.1.9.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spring" name="spring-batch-infrastructure">
+			<revision name="2.1.9.RELEASE" status="release" pubdate="20170228154943" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="28">
+				<metadata-artifact status="no" details="" size="466" time="0" location="D:\Local_Repository\repository\ivy-cache\org.spring\spring-batch-infrastructure\ivy-2.1.9.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.1.9.RELEASE" rev-constraint-default="2.1.9.RELEASE" rev-constraint-dynamic="2.1.9.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-batch-infrastructure" type="jar" ext="jar" status="no" details="" size="361851" time="0" location="D:\Local_Repository\repository\ivy-cache\org.spring\spring-batch-infrastructure\jars\spring-batch-infrastructure-2.1.9.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.spring/spring-batch-infrastructure/jars/spring-batch-infrastructure-2.1.9.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spring" name="spring-security-cas">
+			<revision name="3.1.3.RELEASE" status="release" pubdate="20170228154901" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="27">
+				<metadata-artifact status="no" details="" size="450" time="0" location="D:\Local_Repository\repository\ivy-cache\org.spring\spring-security-cas\ivy-3.1.3.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.1.3.RELEASE" rev-constraint-default="3.1.3.RELEASE" rev-constraint-dynamic="3.1.3.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-security-cas" type="jar" ext="jar" status="no" details="" size="24191" time="0" location="D:\Local_Repository\repository\ivy-cache\org.spring\spring-security-cas\jars\spring-security-cas-3.1.3.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.spring/spring-security-cas/jars/spring-security-cas-3.1.3.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-amqp">
+			<revision name="1.1.3.RELEASE" status="release" pubdate="20170228154819" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="26">
+				<metadata-artifact status="no" details="" size="443" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-amqp\ivy-1.1.3.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.1.3.RELEASE" rev-constraint-default="1.1.3.RELEASE" rev-constraint-dynamic="1.1.3.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-amqp" type="jar" ext="jar" status="no" details="" size="57257" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-amqp\jars\spring-amqp-1.1.3.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.springframework/spring-amqp/jars/spring-amqp-1.1.3.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-aop">
+			<revision name="3.2.0.RELEASE" status="release" pubdate="20170228154737" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="25">
+				<metadata-artifact status="no" details="" size="441" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-aop\ivy-3.2.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.2.0.RELEASE" rev-constraint-default="3.2.0.RELEASE" rev-constraint-dynamic="3.2.0.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-aop" type="jar" ext="jar" status="no" details="" size="334895" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-aop\jars\spring-aop-3.2.0.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.springframework/spring-aop/jars/spring-aop-3.2.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-aspects">
+			<revision name="3.2.0.RELEASE" status="release" pubdate="20160926165921" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="24">
+				<metadata-artifact status="no" details="" size="449" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-aspects\ivy-3.2.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.2.0.RELEASE" rev-constraint-default="3.2.0.RELEASE" rev-constraint-dynamic="3.2.0.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-aspects" type="jar" ext="jar" status="no" details="" size="69808" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-aspects\jars\spring-aspects-3.2.0.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.springframework/spring-aspects/jars/spring-aspects-3.2.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-beans">
+			<revision name="3.2.0.RELEASE" status="release" pubdate="20160512113114" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="23">
+				<metadata-artifact status="no" details="" size="445" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-beans\ivy-3.2.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.2.0.RELEASE" rev-constraint-default="3.2.0.RELEASE" rev-constraint-dynamic="3.2.0.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-beans" type="jar" ext="jar" status="no" details="" size="604742" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-beans\jars\spring-beans-3.2.0.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.springframework/spring-beans/jars/spring-beans-3.2.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-context">
+			<revision name="3.2.0.RELEASE" status="release" pubdate="20170228154654" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="22">
+				<metadata-artifact status="no" details="" size="449" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-context\ivy-3.2.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.2.0.RELEASE" rev-constraint-default="3.2.0.RELEASE" rev-constraint-dynamic="3.2.0.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-context" type="jar" ext="jar" status="no" details="" size="854027" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-context\jars\spring-context-3.2.0.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.springframework/spring-context/jars/spring-context-3.2.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-context-support">
+			<revision name="3.2.0.RELEASE" status="release" pubdate="20170228154612" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="21">
+				<metadata-artifact status="no" details="" size="465" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-context-support\ivy-3.2.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.2.0.RELEASE" rev-constraint-default="3.2.0.RELEASE" rev-constraint-dynamic="3.2.0.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-context-support" type="jar" ext="jar" status="no" details="" size="127093" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-context-support\jars\spring-context-support-3.2.0.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.springframework/spring-context-support/jars/spring-context-support-3.2.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-core">
+			<revision name="3.2.0.RELEASE" status="release" pubdate="20170228154530" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="20">
+				<metadata-artifact status="no" details="" size="443" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-core\ivy-3.2.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.2.0.RELEASE" rev-constraint-default="3.2.0.RELEASE" rev-constraint-dynamic="3.2.0.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-core" type="jar" ext="jar" status="no" details="" size="863065" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-core\jars\spring-core-3.2.0.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.springframework/spring-core/jars/spring-core-3.2.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-expression">
+			<revision name="3.2.0.RELEASE" status="release" pubdate="20170228154447" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="19">
+				<metadata-artifact status="no" details="" size="455" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-expression\ivy-3.2.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.2.0.RELEASE" rev-constraint-default="3.2.0.RELEASE" rev-constraint-dynamic="3.2.0.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-expression" type="jar" ext="jar" status="no" details="" size="193790" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-expression\jars\spring-expression-3.2.0.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.springframework/spring-expression/jars/spring-expression-3.2.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-jdbc">
+			<revision name="3.2.0.RELEASE" status="release" pubdate="20170228154405" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="18">
+				<metadata-artifact status="no" details="" size="443" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-jdbc\ivy-3.2.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.2.0.RELEASE" rev-constraint-default="3.2.0.RELEASE" rev-constraint-dynamic="3.2.0.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-jdbc" type="jar" ext="jar" status="no" details="" size="400949" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-jdbc\jars\spring-jdbc-3.2.0.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.springframework/spring-jdbc/jars/spring-jdbc-3.2.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-jms">
+			<revision name="3.2.0.RELEASE" status="release" pubdate="20170228154323" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="17">
+				<metadata-artifact status="no" details="" size="441" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-jms\ivy-3.2.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.2.0.RELEASE" rev-constraint-default="3.2.0.RELEASE" rev-constraint-dynamic="3.2.0.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-jms" type="jar" ext="jar" status="no" details="" size="200380" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-jms\jars\spring-jms-3.2.0.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.springframework/spring-jms/jars/spring-jms-3.2.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-orm">
+			<revision name="3.2.0.RELEASE" status="release" pubdate="20170228154240" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="16">
+				<metadata-artifact status="no" details="" size="441" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-orm\ivy-3.2.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.2.0.RELEASE" rev-constraint-default="3.2.0.RELEASE" rev-constraint-dynamic="3.2.0.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-orm" type="jar" ext="jar" status="no" details="" size="392189" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-orm\jars\spring-orm-3.2.0.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.springframework/spring-orm/jars/spring-orm-3.2.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-rabbit">
+			<revision name="1.1.3.RELEASE" status="release" pubdate="20170228154158" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="15">
+				<metadata-artifact status="no" details="" size="447" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-rabbit\ivy-1.1.3.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.1.3.RELEASE" rev-constraint-default="1.1.3.RELEASE" rev-constraint-dynamic="1.1.3.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-rabbit" type="jar" ext="jar" status="no" details="" size="179241" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-rabbit\jars\spring-rabbit-1.1.3.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.springframework/spring-rabbit/jars/spring-rabbit-1.1.3.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-security-aspects">
+			<revision name="3.1.3.RELEASE" status="release" pubdate="20170228154116" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="14">
+				<metadata-artifact status="no" details="" size="467" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-security-aspects\ivy-3.1.3.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.1.3.RELEASE" rev-constraint-default="3.1.3.RELEASE" rev-constraint-dynamic="3.1.3.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-security-aspects" type="jar" ext="jar" status="no" details="" size="6471" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-security-aspects\jars\spring-security-aspects-3.1.3.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.springframework/spring-security-aspects/jars/spring-security-aspects-3.1.3.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-security-core">
+			<revision name="3.1.3.RELEASE" status="release" pubdate="20170228154034" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="13">
+				<metadata-artifact status="no" details="" size="461" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-security-core\ivy-3.1.3.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.1.3.RELEASE" rev-constraint-default="3.1.3.RELEASE" rev-constraint-dynamic="3.1.3.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-security-core" type="jar" ext="jar" status="no" details="" size="340254" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-security-core\jars\spring-security-core-3.1.3.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.springframework/spring-security-core/jars/spring-security-core-3.1.3.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-security-web">
+			<revision name="3.1.3.RELEASE" status="release" pubdate="20170228153952" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="12">
+				<metadata-artifact status="no" details="" size="459" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-security-web\ivy-3.1.3.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.1.3.RELEASE" rev-constraint-default="3.1.3.RELEASE" rev-constraint-dynamic="3.1.3.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-security-web" type="jar" ext="jar" status="no" details="" size="253820" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-security-web\jars\spring-security-web-3.1.3.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.springframework/spring-security-web/jars/spring-security-web-3.1.3.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-test">
+			<revision name="3.2.0.RELEASE" status="release" pubdate="20170228153909" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="11">
+				<metadata-artifact status="no" details="" size="443" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-test\ivy-3.2.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.2.0.RELEASE" rev-constraint-default="3.2.0.RELEASE" rev-constraint-dynamic="3.2.0.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-test" type="jar" ext="jar" status="no" details="" size="451556" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-test\jars\spring-test-3.2.0.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.springframework/spring-test/jars/spring-test-3.2.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-tx">
+			<revision name="3.2.0.RELEASE" status="release" pubdate="20170228153827" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="10">
+				<metadata-artifact status="no" details="" size="439" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-tx\ivy-3.2.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.2.0.RELEASE" rev-constraint-default="3.2.0.RELEASE" rev-constraint-dynamic="3.2.0.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-tx" type="jar" ext="jar" status="no" details="" size="240944" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-tx\jars\spring-tx-3.2.0.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.springframework/spring-tx/jars/spring-tx-3.2.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-web">
+			<revision name="3.2.0.RELEASE" status="release" pubdate="20170228153745" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="9">
+				<metadata-artifact status="no" details="" size="441" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-web\ivy-3.2.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.2.0.RELEASE" rev-constraint-default="3.2.0.RELEASE" rev-constraint-dynamic="3.2.0.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-web" type="jar" ext="jar" status="no" details="" size="624327" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-web\jars\spring-web-3.2.0.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.springframework/spring-web/jars/spring-web-3.2.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spring" name="spring-batch-test">
+			<revision name="3.0.2" status="release" pubdate="20170301161738" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="8">
+				<metadata-artifact status="no" details="" size="438" time="0" location="D:\Local_Repository\repository\ivy-cache\org.spring\spring-batch-test\ivy-3.0.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.0.2" rev-constraint-default="3.0.2" rev-constraint-dynamic="3.0.2" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-batch-test" type="jar" ext="jar" status="no" details="" size="36867" time="0" location="D:\Local_Repository\repository\ivy-cache\org.spring\spring-batch-test\jars\spring-batch-test-3.0.2.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.spring/spring-batch-test/jars/spring-batch-test-3.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-webmvc">
+			<revision name="3.2.0.RELEASE" status="release" pubdate="20170228153702" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="7">
+				<metadata-artifact status="no" details="" size="447" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-webmvc\ivy-3.2.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="3.2.0.RELEASE" rev-constraint-default="3.2.0.RELEASE" rev-constraint-dynamic="3.2.0.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="spring-webmvc" type="jar" ext="jar" status="no" details="" size="635936" time="0" location="D:\Local_Repository\repository\ivy-cache\org.springframework\spring-webmvc\jars\spring-webmvc-3.2.0.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.springframework/spring-webmvc/jars/spring-webmvc-3.2.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.visigoth" name="freemarker">
+			<revision name="2.3.20" status="release" pubdate="20170228153538" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="6">
+				<metadata-artifact status="no" details="" size="427" time="0" location="D:\Local_Repository\repository\ivy-cache\org.visigoth\freemarker\ivy-2.3.20.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.3.20" rev-constraint-default="2.3.20" rev-constraint-dynamic="2.3.20" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="freemarker" type="jar" ext="jar" status="no" details="" size="1018549" time="0" location="D:\Local_Repository\repository\ivy-cache\org.visigoth\freemarker\jars\freemarker-2.3.20.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.visigoth/freemarker/jars/freemarker-2.3.20.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xmlpull" name="xmlpull">
+			<revision name="1.1.3.1" status="release" pubdate="20160328123357" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="5">
+				<metadata-artifact status="no" details="" size="421" time="0" location="D:\Local_Repository\repository\ivy-cache\org.xmlpull\xmlpull\ivy-1.1.3.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.1.3.1" rev-constraint-default="1.1.3.1" rev-constraint-dynamic="1.1.3.1" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="xmlpull" type="jar" ext="jar" status="no" details="" size="7188" time="0" location="D:\Local_Repository\repository\ivy-cache\org.xmlpull\xmlpull\jars\xmlpull-1.1.3.1.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.xmlpull/xmlpull/jars/xmlpull-1.1.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xmlpull" name="xpp3_min">
+			<revision name="1.1.4c" status="release" pubdate="20121121152728" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="4">
+				<metadata-artifact status="no" details="" size="396" time="0" location="D:\Local_Repository\repository\ivy-cache\org.xmlpull\xpp3_min\ivy-1.1.4c.xml" searched="false" origin-is-local="false" origin-location="http://192.168.52.211/org.xmlpull/xpp3_min/ivys/ivy-1.1.4c.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.1.4c" rev-constraint-default="1.1.4c" rev-constraint-dynamic="1.1.4c" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="xpp3_min" type="jar" ext="jar" status="no" details="" size="24956" time="0" location="D:\Local_Repository\repository\ivy-cache\org.xmlpull\xpp3_min\jars\xpp3_min-1.1.4c.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.xmlpull/xpp3_min/jars/xpp3_min-1.1.4c.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="unknown" name="aopalliance">
+			<revision name="1.0" status="release" pubdate="20121121152754" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="3">
+				<metadata-artifact status="no" details="" size="395" time="0" location="D:\Local_Repository\repository\ivy-cache\unknown\aopalliance\ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="http://192.168.52.211/unknown/aopalliance/ivys/ivy-1.0.xml"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="aopalliance" type="jar" ext="jar" status="no" details="" size="4467" time="0" location="D:\Local_Repository\repository\ivy-cache\unknown\aopalliance\jars\aopalliance-1.0.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/unknown/aopalliance/jars/aopalliance-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mybatis" name="mybatis-spring">
+			<revision name="1.2.2" status="release" pubdate="20160511144655" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="2">
+				<metadata-artifact status="no" details="" size="433" time="0" location="D:\Local_Repository\repository\ivy-cache\org.mybatis\mybatis-spring\ivy-1.2.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="mybatis-spring" type="jar" ext="jar" status="no" details="" size="48783" time="0" location="D:\Local_Repository\repository\ivy-cache\org.mybatis\mybatis-spring\jars\mybatis-spring-1.2.2.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.mybatis/mybatis-spring/jars/mybatis-spring-1.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-pool2">
+			<revision name="2.3" status="release" pubdate="20170228153455" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="1">
+				<metadata-artifact status="no" details="" size="436" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.commons\commons-pool2\ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="commons-pool2" type="jar" ext="jar" status="no" details="" size="109568" time="0" location="D:\Local_Repository\repository\ivy-cache\org.apache.commons\commons-pool2\jars\commons-pool2-2.3.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/org.apache.commons/commons-pool2/jars/commons-pool2-2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sunline" name="ark-batch">
+			<revision name="1.1.0.RELEASE" status="release" pubdate="20170301161938" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="0">
+				<metadata-artifact status="no" details="" size="431" time="0" location="D:\Local_Repository\repository\ivy-cache\com.sunline\ark-batch\ivy-1.1.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="coe-crm-opty" conf="zip" rev="1.1.0.RELEASE" rev-constraint-default="1.1.0.RELEASE" rev-constraint-dynamic="1.1.0.RELEASE" callerrev="working@sh401030101504"/>
+				<artifacts>
+					<artifact name="ark-batch" type="jar" ext="jar" status="no" details="" size="65157" time="0" location="D:\Local_Repository\repository\ivy-cache\com.sunline\ark-batch\jars\ark-batch-1.1.0.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.138.15/com.sunline/ark-batch/jars/ark-batch-1.1.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

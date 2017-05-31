@@ -1,0 +1,3 @@
+<project name="coe-crm-opty" default="all" xmlns:ivy="antlib:org.apache.ivy.ant">
+	<import file="${buildscripts.dir}/common-app-targets.xml" />
+</project>

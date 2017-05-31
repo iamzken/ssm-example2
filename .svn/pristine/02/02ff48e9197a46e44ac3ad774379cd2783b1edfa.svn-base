@@ -1,0 +1,3 @@
+#99bill change tracking management platform
+publish.version=1.0.8.9
+target.jdk=1.7

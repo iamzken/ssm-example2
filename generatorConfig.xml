@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" 
+    "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+
+<!-- 此文件只是mybatis的数据库自动生成映射文件，实体类，接口等方法的，发布时，不用提交此文件，也可删除 -->
+
+<generatorConfiguration>
+    <classPathEntry location="D:/software_installed/apache-tomcat-7.0.50/lib/ojdbc14-10.2.0.4.0.jar"/>
+    <context id="context1" targetRuntime="MyBatis3">
+        
+        <plugin type="org.mybatis.generator.plugins.CaseInsensitiveLikePlugin"></plugin>  
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin"></plugin>  
+        <!-- Pagination -->  
+        <plugin type="com.bill99.coe.plugins.OraclePaginationPlugin"></plugin> 
+        
+        <commentGenerator>
+            <!-- 是否去除自动生成的注释 true:是 , false:否 -->
+            <property name="suppressAllComments" value="false"/>
+            <!-- 是否生成注释代时间戳-->
+            <property name="suppressDate" value="true" /> 
+          </commentGenerator>
+        
+        <!-- 指定的jdbc的连接信息 -->
+        <jdbcConnection 
+            driverClass="oracle.jdbc.driver.OracleDriver" 
+            connectionURL="jdbc:oracle:thin:@192.168.87.20:1521:crmsit" 
+            userId="SIEBEL" 
+            password="SIEBEL" />
+        
+        <!-- 类型转换 -->  
+        <javaTypeResolver>  
+            <!-- 是否使用bigDecimal,false可自动转化以下类型(Long, Integer, Short, etc.)-->  
+            <property name="forceBigDecimals" value="false"/>  
+        </javaTypeResolver>  
+        
+        <!-- 生成实体类地址 Model -->       
+        <javaModelGenerator targetPackage="com.bill99.coe.model" targetProject="coe-crm-opty/src/main/java" >
+            <!-- 是否在当前路径下新加一层schema,eg:fase路径com.bill99.coe.model， true:com.bill99.coe.model.[schemaName] -->  
+            <property name="enableSubPackages" value="false"/>  
+            <!-- 是否针对string类型的字段在set的时候进行trim调用 -->  
+            <property name="trimStrings" value="true"/>  
+        </javaModelGenerator>
+        
+        <!-- 生成mapper.xml文件 -->     
+        <sqlMapGenerator targetPackage="mapper" targetProject="coe-crm-opty/src/main/resources" >
+            <!-- 是否在当前路径下新加一层schema,eg:fase路径com.bill99.coe.mapper, true:com.bill99.coe.mapper.[schemaName] -->  
+            <property name="enableSubPackages" value="false" /> 
+        </sqlMapGenerator>
+        
+        <!-- 生成接口dao -->  
+        <javaClientGenerator targetPackage="com.bill99.coe.dao" targetProject="coe-crm-opty/src/main/java" type="XMLMAPPER" >
+            <!-- 是否在当前路径下新加一层schema,eg:fase路径com.bill99.coe.model， true:com.bill99.coe.model.[schemaName] -->  
+            <property name="enableSubPackages" value="false" /> 
+        </javaClientGenerator>
+        
+        <!-- 
+            schema：数据库名 
+            tableName：对应的数据库表 
+            domainObjectName：要生成的实体类 
+            enable*ByExample： 是否生成 example类   
+        --> 
+        <table catalog="crmsit" schema="SIEBEL" tableName="S_OPTY" domainObjectName="BusinessOpportunity" 
+            enableCountByExample="true"  enableDeleteByExample="true" 
+            enableSelectByExample="true"  enableUpdateByExample="true">
+        </table>
+    </context>
+</generatorConfiguration>
